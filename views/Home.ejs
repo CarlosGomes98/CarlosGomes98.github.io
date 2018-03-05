@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Carlos Gomes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Home.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/Home.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1 class="display-4 title">Carlos Gomes</h1>
+            </div>
+            <p class="lead">Welcome to my Website. I am a computer science student currently studying at
+                <a href="http://www.cs.manchester.ac.uk/">The University of Manchester</a>.</p>
+            <p class="lead">I am interested in computer science, astronomy, music and history. I enjoy playing the guitar, gaming and how
+                smooth
+                <a href="https://www.python.org/dev/peps/pep-0202/">Python List Comprehensions</a> are.</p>
+        </div>
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/CarlosGomes98">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cv">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" href ="#" data-target="#contact">Contact me</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="contact" class="modal fade">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="question"></p>
+                    <input id="robotTest" type="text" class="form-control">
+                    <p id="email"></p>
+                </div>
+            </div>
+</body>
+
+</html>

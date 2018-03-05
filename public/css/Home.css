@@ -1,0 +1,11 @@
+.jumbotron{
+    margin-bottom: 0;
+}
+
+.navbar-nav > li{
+    padding: 0 2em 0 2em;
+}
+
+.nav-link{
+    outline: none;
+}

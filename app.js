@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/cv', function(req, res){
-    var file = __dirname + "/public/files/cv.pdf";
+    var file = __dirname + "/public/files/CV english (2).pdf";
     res.sendFile(file);
 });
 

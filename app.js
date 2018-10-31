@@ -14,4 +14,4 @@ app.get('/cv', function(req, res){
     res.sendFile(file);
 });
 
-app.listen(PORT, 'localhost', () => console.log("Server running!"));
+app.listen(PORT, () => console.log("Server running!"));

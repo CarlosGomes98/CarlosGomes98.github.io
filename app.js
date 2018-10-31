@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+const PORT = process.env.PORT || 5000
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
@@ -12,4 +14,4 @@ app.get('/cv', function(req, res){
     res.sendFile(file);
 });
 
-app.listen(3000, 'localhost', () => console.log("Server running!"));
+app.listen(PORT, 'localhost', () => console.log("Server running!"));

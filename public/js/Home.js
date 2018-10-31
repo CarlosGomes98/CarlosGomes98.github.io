@@ -3,7 +3,7 @@ $(document).ready(function () {
     var emailLabel = document.querySelector("#email");
     var answer = document.querySelector("#robotTest");
 
-    var question = "The first element is in position:";
+    var question = "The first element in an array is in position:";
     var correct = ["0", "zero"];
     var emailServer = "live.com.pt";
 
